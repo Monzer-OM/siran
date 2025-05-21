@@ -8,7 +8,7 @@ export default function App() {
   ];
 
   return (
-<div style={{ fontFamily: "sans-serif", direction: "rtl", background: "#FFFFFF", minHeight: "100vh" }}>
+<div style={{ fontFamily: "'Cairo', sans-serif", direction: "rtl", background: "#FFFFFF", minHeight: "100vh" }}>
   <header style={{ textAlign: "center", padding: "50px 20px" }}>
     
     {/* Flex container for logo and title */}
@@ -20,7 +20,7 @@ export default function App() {
       margin: "0 auto 20px auto"
     }}>
       <img src="/logo.png" alt="سيران ترافل" style={{ width: "160px" }} />
-      <h1 style={{ fontSize: "32px", color: "#f06522", margin: 0 }}>Siran Travel</h1>
+      <h1 style={{ fontSize: "45px", color: "#f06522", margin: 0 }}>Siran Travel</h1>
     </div>
 
     <h1 style={{ fontSize: "32px", color: "#0077b6" }}>رحلتك تبدأ مع سيران ترافل</h1>
@@ -54,10 +54,11 @@ export default function App() {
                 backgroundColor: "#25D366",
                 color: "#fff",
                 padding: "12px 24px",
-                fontSize: "16px",
+                fontSize: "14px",
                 borderRadius: "30px",
                 border: "none",
                 cursor: "pointer",
+                fontFamily: "cairo"
               }}>
                 احجز عبر الواتساب
               </button>
