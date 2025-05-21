@@ -42,7 +42,7 @@ export default function App() {
       <section style={{ textAlign: "center", padding: "40px 20px" }}>
         <h2 style={{ fontSize: "22px", marginBottom: "10px" }}>تواصل معنا الآن واحجز رحلتك! 📱</h2>
         <p style={{ color: "#444", marginBottom: "20px" }}>نحن جاهزون للرد على جميع استفساراتك وتقديم أفضل الأسعار عبر الواتساب مباشرة.</p>
-        <a href="https://wa.me/00905058029560" target="_blank" rel="noopener noreferrer">
+        <a href="https://wa.me/905058029560" target="_blank" rel="noopener noreferrer">
           <button style={{
             backgroundColor: "#25D366",
             color: "#fff",
