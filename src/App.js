@@ -60,7 +60,7 @@ export default function App() {
   ];
 
   const specialServices = [
-    { city: lang === "ar" ? "سيارات خاصة" : "Private Cars", img: "/img/car.PNG" },
+    { city: lang === "ar" ? "سيارات خاصة" : "Private Cars", img: "/img/CAR.PNG" },
     { city: lang === "ar" ? "يخت خاص" : "Private Yacht", img: "/img/yacht.jpg" },
     { city: lang === "ar" ? "كوخ خاص" : "Private Cabin", img: "/img/cabin.jpg" },
     { city: lang === "ar" ? " حجوزات فنادق و طيران" : "Hotel & Flight Booking", img: "/img/hotel.jpg" },
