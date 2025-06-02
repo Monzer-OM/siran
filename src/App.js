@@ -178,22 +178,23 @@ export default function App() {
     </p>
 
     <div className="footer-icons">
-      <a href="https://instagram.com/YOUR_PAGE" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-instagram"></i>
-      </a>
-      <a href="https://tiktok.com/@YOUR_PAGE" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-tiktok"></i>
-      </a>
-      <a href="https://snapchat.com/add/YOUR_PAGE" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-snapchat-ghost"></i>
-      </a>
-      <a href="https://wa.me/905058029560" target="_blank" rel="noopener noreferrer">
-        <i className="fab fa-whatsapp"></i>
-      </a>
-      <a href="tel:+905058029560">
-        <i className="fas fa-phone-alt"></i>
-      </a>
-    </div>
+  <a href="https://www.instagram.com/siran_travel_turkey?igsh=d2JsaXU3bjA1ZzM0&utm_source=qr" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-instagram"></i>
+  </a>
+  <a href="https://www.facebook.com/sirantravel2022" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-facebook"></i>
+  </a>
+  <a href="https://www.snapchat.com/add/sirantravel1?share_id=jJ07SqXW57Y&locale=en-US" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-snapchat-ghost"></i>
+  </a>
+  <a href="https://wa.me/905058029560" target="_blank" rel="noopener noreferrer">
+    <i className="fab fa-whatsapp"></i>
+  </a>
+  <a href="tel:+905058029560">
+    <i className="fas fa-phone-alt"></i>
+  </a>
+</div>
+
 
     <p className="footer-location">
       <i className="fas fa-map-marker-alt"></i> Istanbul / Türkiye
