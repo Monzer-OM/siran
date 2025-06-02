@@ -152,8 +152,8 @@ export default function App() {
           <img src="/logo.png" alt="Logo" />
         </motion.div>
         <div className="header-text">
-          <motion.h1 initial={{ opacity: 0, x: 50 }} animate={controlsTravel}>Travel</motion.h1>
           <motion.h1 initial={{ opacity: 0, x: 50 }} animate={controlsSiran}>Siran</motion.h1>
+          <motion.h1 initial={{ opacity: 0, x: 50 }} animate={controlsTravel}>Travel</motion.h1>
         </div>
       </header>
 
