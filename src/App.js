@@ -161,12 +161,60 @@ export default function App() {
         <motion.h2 initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 1 }}>
           {t.welcome} <motion.span style={{ color: "#f06522" }}>سيران</motion.span> ترافل
         </motion.h2>
-        <p>{t.description}</p>
-      </section>
+        <p style={{fontFamily: "Cairo, sans-serif" }}>{t.description}</p>
+        </section>
 
       {renderTripSection(t.dailyTitle, dailyTrips, "daily")}
       {renderTripSection(t.weeklyTitle, weeklyTrips, "weekly")}
       {renderTripSection(t.specialTitle, specialServices, "special")}
+
+<footer className="footer">
+  <div className="footer-content">
+    <h3 className="footer-heading">📞 {lang === "ar" ? "تواصل معنا" : "Get in Touch"}</h3>
+    <p className="footer-subtitle">
+      {lang === "ar"
+        ? "نحن هنا للإجابة على جميع استفساراتكم ومساعدتكم في اختيار الرحلة المثالية!"
+        : "We're here to answer all your questions and help you plan the perfect trip!"}
+    </p>
+
+    <div className="footer-icons">
+      <a href="https://instagram.com/YOUR_PAGE" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-instagram"></i>
+      </a>
+      <a href="https://tiktok.com/@YOUR_PAGE" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-tiktok"></i>
+      </a>
+      <a href="https://snapchat.com/add/YOUR_PAGE" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-snapchat-ghost"></i>
+      </a>
+      <a href="https://wa.me/905058029560" target="_blank" rel="noopener noreferrer">
+        <i className="fab fa-whatsapp"></i>
+      </a>
+      <a href="tel:+905058029560">
+        <i className="fas fa-phone-alt"></i>
+      </a>
     </div>
+
+    <p className="footer-location">
+      <i className="fas fa-map-marker-alt"></i> Istanbul / Türkiye
+    </p>
+
+    <div className="footer-text">
+      <img src="/logo.png" alt="Logo" className="footer-logo" />
+      <p>&copy; 2025 Siran Travel. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+
+
+    </div>
+
+
+
   );
 }
